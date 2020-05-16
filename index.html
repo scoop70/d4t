@@ -55,8 +55,8 @@
           </li>
 
           <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact</button>
-            <button class="btn btn-opacity-light mr-1" style="color:#000">🗓️ Lesrooster</button>
+            <button class="btn btn-info" data-toggle="modal" data-target="#contactModal">Contact</button>
+            <button class="btn btn-opacity-light mr-1" data-toggle="modal" data-target="#roosterModal" style="color:#000">🗓️ Lesrooster</button>
           </li>
         </ul>
       </div>
@@ -303,12 +303,13 @@ voldoende haalt. </p>
       <footer class="border-top">
         <p class="text-center text-muted pt-4">Copyright © 2020 Dutch4Thai 🌷</p>
       </footer>
-      <!-- Modal for Contact - us Button -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+      <!-- Modal for Contact -->
+      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title" id="exampleModalLabel">Contact</h4>
+              <h4 class="modal-title" id="contactModalLabel">Contact</h4>
             </div>
             <div class="modal-body">
               <p>
@@ -326,6 +327,29 @@ voldoende haalt. </p>
       </div>
     </div>
   </div>
+
+    <!-- Modal for rooster -->
+    <div class="modal fade" id="roosterModal" tabindex="-1" role="dialog" aria-labelledby="roosterModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="roosterModalLabel">Rooster</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Rooster
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Sluit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <script src="vendors/jquery/jquery.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.min.js"></script>
   <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
