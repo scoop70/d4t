@@ -8741,12 +8741,13 @@ body.sidebar-open:before {
     height: 3px;
 }
 .contact-us .contact-us-bgimage {
-    background-image: url(../images/bg-studenten.jpg);
+    /*background-image: url(../images/bg-studenten.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background-color:#eee;
     text-align: center;
-    padding: 83px 0 68px;
+    padding: 0px 0 0px;
 }
 .contact-details .mdi {
     font-size: 20px;
