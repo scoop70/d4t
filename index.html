@@ -403,7 +403,9 @@ voldoende haalt. </p>
         <h4 class="modal-title" id="film1ModalLabel">film1</h4>
       </div>
       <div class="modal-body">
-        film1
+        <video loop="loop" width="100%" controls="true" onclick="this.paused ? this.play() : this.pause();">
+          <source src="./images/film1.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-light" data-dismiss="modal">Sluit venster</button>
@@ -423,7 +425,11 @@ voldoende haalt. </p>
         <h4 class="modal-title" id="film2ModalLabel">film2</h4>
       </div>
       <div class="modal-body">
-        film2
+
+        <video loop="loop" width="100%" controls="true" onclick="this.paused ? this.play() : this.pause();">
+          <source src="./images/film2.mp4" type="video/mp4" />
+        </video>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-light" data-dismiss="modal">Sluit venster</button>
@@ -443,7 +449,16 @@ voldoende haalt. </p>
         <h4 class="modal-title" id="film3ModalLabel">film3</h4>
       </div>
       <div class="modal-body">
-        film1
+
+        <div class="wrapper">
+
+          <video loop="loop" width="100%" controls="true" onclick="this.paused ? this.play() : this.pause();">
+            <source src="./images/film3.mp4" type="video/mp4" />
+          </video>
+
+           <div class="playpause"></div>
+        </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-light" data-dismiss="modal">Sluit venster</button>
