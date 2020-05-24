@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /index.html
+
+Disallow: /dit-is-een-testmap
+Disallow: /fonts
+Disallow: /twitter-bootstrap
