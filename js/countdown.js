@@ -1,5 +1,5 @@
 const now = moment();
-let les = moment("june 2", "MMM DD");
+let les = moment("july 6", "MMM DD");
 if ( les.isBefore(now, 'days') ) {
   les = les.add(1, 'year');
 }
