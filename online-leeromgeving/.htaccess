@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /customers/3/d/d/dutch4thai.com/httpd.www/online-leeromgeving/.htpasswd
+Require valid-user
+ErrorDocument 404 https://dutch4thai.com/inloggenmislukt.html

@@ -9231,3 +9231,367 @@ footer a:hover {
     padding: 5px 0 20px 39px;
 }
 /*# sourceMappingURL=maps/style.min.css.map */
+
+.post-content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    max-width: 550px;
+    margin: 0 auto;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    padding: 20px 15px 0 15px;
+    margin-bottom: 50px;
+}
+
+.post-content .post-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.post-content .post-header .post-author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.post-content .post-header .post-author img {
+    width: 50px;
+    height: 50px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 1px solid #dddfe2;
+    margin-right: 10px;
+}
+
+.post-content .post-header .post-author .author-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.post-content .post-header .post-author .author-name name {
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.post-content .post-header .post-author .author-name timestamp a {
+    color: #7e7e7f;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.post-content .post-header .post-author .author-name timestamp svg {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+}
+
+.post-content .post-header .post-author .author-name timestamp svg.feather-circle {
+    fill: #7e7e7f;
+    width: 3px;
+    height: 3px;
+}
+
+.post-content .post-body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 20px 0 20px 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.post-content .post-body .voice-body .voice-title {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    color: #434344;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 25px 5px;
+    background: #f2f3f5;
+}
+
+.post-content .post-body .voice-body {
+    border-radius: 15px;
+    border-top-left-radius: 3px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.post-content .post-body .voice-body .voice-audio {
+    background: #e6e7e9;
+    position: relative;
+    padding: 35px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+}
+
+.post-content .post-body .voice-body .voice-audio .control {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.post-content .post-body .voice-body .voice-audio .control button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 1px 3px #716c6c;
+    box-shadow: 0 1px 3px #716c6c;
+}
+
+.post-content .post-body .voice-body .voice-audio .control #pause {
+    display: none;
+}
+
+.post-content .post-body .voice-body .voice-audio .control .time {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-weight: 500;
+    color: #7e7e7f;
+}
+
+.post-content .post-body .voice-body .voice-audio .control button svg {
+    fill: #4080ff;
+    stroke: #4080ff;
+    width: 20px;
+    height: 20px;
+}
+
+.post-content .post-body .voice-body .voice-audio .control button#play svg {
+    margin-left: 3px
+}
+
+.post-content .post-body .voice-body .voice-audio .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.post-content .post-body .voice-body .voice-audio progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.post-content .post-body .voice-body .voice-audio progress[value]::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.post-content .post-body .voice-body .voice-audio progress[value]::-webkit-progress-value {
+    background: #4080ff;
+    -webkit-box-shadow: 2px 0px 10px #adadaf;
+    box-shadow: 2px 0px 10px #adadaf;
+}
+
+.post-content .post-body .sound-bars {
+    margin: 0 5px 15px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.post-content .post-body .sound-bars span {
+    display: inline-block;
+    height: 22px;
+    width: 4px;
+    margin-left: 2px;
+    border-radius: 50px;
+    background: #4080ff
+}
+
+.post-content .post-body .sound-bars span:nth-child(1) {
+    height: 6px
+}
+
+.post-content .post-body .sound-bars span:nth-child(2) {
+    height: 4px
+}
+
+.post-content .post-body .sound-bars span:nth-child(3) {
+    height: 15px
+}
+
+.post-content .post-body .sound-bars span:nth-child(5) {
+    height: 10px
+}
+
+/*FOOTER*********************/
+.post-content .post-footer {
+    margin-bottom: 20px
+}
+
+.post-content .post-footer .count-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    font-weight: 500
+}
+
+.post-content .post-footer .count-wrapper .likes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.post-content .post-footer .count-wrapper .likes .like-ico {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #4080ff;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    margin-top: -2px
+}
+
+.post-content .post-footer .count-wrapper .likes .like-ico svg {
+    width: 13px;
+    height: 13px;
+    fill: #fff;
+    stroke: #4080ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%)
+}
+
+.post-content .post-footer .count-wrapper .comment-heard span {
+    margin-left: 10px;
+}
+
+.post-content .post-footer .interactions-wrapper {
+    padding: 0 50px;
+}
+
+.post-content .post-footer .interactions-wrapper,
+.post-content .post-footer .interactions-wrapper div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616770
+}
+
+d .post-content .post-footer .interactions-wrapper div {
+    cursor: pointer;
+}
+
+.post-content .post-footer .interactions-wrapper div svg {
+    margin-right: 5px;
+    width: 22px;
+}
+
+
+.title span svg {
+    fill: #eaebee;
+    stroke: #eaebee;
+    stroke-width: 1px;
+}
+
+
+
+
+@media (max-width: 550px) {
+    .post-content {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #fff;
+        max-width: 550px;
+        margin: 0 auto;
+        border: 1px solid #dddfe2;
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
+        padding: 20px 15px 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-footer .interactions-wrapper {
+        padding: 0 20px !important;
+    }
+}
