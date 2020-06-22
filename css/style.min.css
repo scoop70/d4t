@@ -2174,8 +2174,8 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(85, 187, 158, 0.5);
 }
 .btn-info {
-    background-color: #1998ff;
-    border-color: #1998ff;
+    background-color: #2759ab;
+    border-color: #2759ab;
 }
 .btn-info:hover {
     color: #fff;
@@ -8652,7 +8652,7 @@ body.sidebar-open:before {
 }
 .features-overview .readmore-link {
     font-size: 13px;
-    color: #97a3be;
+    color: #000000;
     font-weight: 500;
     transition: color 0.5s ease-in-out;
 }
@@ -8870,7 +8870,7 @@ footer a:hover {
     transition: all 0.3s ease;
 }
 .navbar .navbar-menu-wrapper .navbar-nav .nav-link.active {
-    color: red;
+    color: #e30613;
 }
 .navbar .navbar-collapse-logo {
     display: none;
@@ -9597,7 +9597,7 @@ d .post-content .post-footer .interactions-wrapper div {
 }
 
 .chat-bubble {
-  background: #1998ff;
+  background: #2759ab;
   display: inline-block;
   padding: 3px 5px 3px 5px;
   text-align: center;
