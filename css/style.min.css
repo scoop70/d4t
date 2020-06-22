@@ -9592,7 +9592,7 @@ d .post-content .post-footer .interactions-wrapper div {
 
 @media (max-width: 480px) {
     .post-footer .interactions-wrapper {
-        padding: 0 20px !important;
+        padding: 0px !important;
     }
 }
 
